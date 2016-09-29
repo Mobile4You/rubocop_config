@@ -1,0 +1,10 @@
+AllCops:
+  TargetRubyVersion: 2.3
+Rails:
+  Enabled: true
+Style/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+Metrics/LineLength:
+  Max: 100
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
