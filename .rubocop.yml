@@ -1,10 +1,16 @@
 AllCops:
+  Excludes:
+   - db/schema.rb
   TargetRubyVersion: 2.3
 Rails:
   Enabled: true
 Style/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
+Style/EmptyLinesAroundModuleBody:
+  EnforcedStyle: empty_lines
 Metrics/LineLength:
   Max: 100
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
+Documentation:
+  Enabled: false
